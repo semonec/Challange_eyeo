@@ -53,6 +53,7 @@ E delegate himself directly
 So the result would be like
 
 <b>1 Apple</b>
+
 <b>4 invalid</b>
 
 ## 3. someone will delegate to a person who in the circular dependency
@@ -77,9 +78,9 @@ The result would be like
 ## 4. someone doesn't pick or delegate
 
 ~~~
-A poke B
-A pick
-B delegate
+A poke Apple
+B pick
+C delegate
 ~~~
 
 > not registered method, poke will be handled as INVALID
