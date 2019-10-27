@@ -72,6 +72,8 @@ The result would be like
 
 <b>4 invalid</b>
 
+> This isn't described at document, but in this situation, A delegate to Invalid voter would have to be handled as INVALID.
+
 ## 4. someone doesn't pick or delegate
 
 ~~~
@@ -85,6 +87,10 @@ pick, delegate without target, will be handled as INVALID
 The result would be
 
 <b>3 invalid</b>
+
+> This isn't described at document, but in this situation, It treat as INVALID vote. 
+should have to be counted followed by 4th condition
+<i>If there are invalid votes they should be counted and reported.</i>
 
 ## 5. someone delegate to other, but that delegated person is not a voter.
 
@@ -101,3 +107,4 @@ The result would be
 
 <b>1 invalid</b>
 
+> This isn't described at document, but in this situation, It treat as INVALID vote.
