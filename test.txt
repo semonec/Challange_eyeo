@@ -1,6 +1,2 @@
-Alice pick Pizza
-Bob delegate Carol
-Carol pick Salad
-Dave delegate Eve
-Eve delegate Mallory
-Mallory delegate Eve
+A delegate B
+C pick Cucumber

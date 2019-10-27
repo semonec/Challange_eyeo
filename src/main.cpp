@@ -153,6 +153,8 @@ int main(int argc, char* argv[])
 			default:
 				// illegal vote type, not a pick and not a delegate, so will be treated as INVALID
 				item.second.setState(INVALID);
+				invalid_cnt++;
+				break;
 		}
 	}
 
@@ -172,6 +174,7 @@ int main(int argc, char* argv[])
 	{
 		cout << pair.second << " " << pair.first << endl;
 	}
-	cout << "invalid " << invalid_cnt << endl;
+	cout << invalid_cnt << " invalid " << endl;
+	
 	return 0;
 }

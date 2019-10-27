@@ -43,6 +43,10 @@ Vote::Vote(string phrase)
 		}
 		this->target = data_vector.at(2);
 		
+	} else {
+		this->name = data_vector.at(0);
+		this->type = UNKNOWN;
+		this->state = INVALID;
 	}
 	this->link = nullptr;
 }
